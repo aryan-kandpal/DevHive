@@ -1,0 +1,48 @@
+Dev-Hive/
+│── backend/                     # Django backend
+│   ├── devhive/                 # Django project folder
+│   │   ├── __init__.py
+│   │   ├── settings.py          # Django settings
+│   │   ├── urls.py              # URL routing
+│   │   ├── wsgi.py
+│   │   ├── asgi.py
+│   ├── apps/                     # Django apps
+│   │   ├── users/                # User authentication
+│   │   │   ├── models.py
+│   │   │   ├── views.py
+│   │   │   ├── urls.py
+│   │   │   ├── serializers.py
+│   │   │   ├── forms.py
+│   │   │   ├── admin.py
+│   │   │   ├── tests.py
+│   │   ├── projects/             # Project showcase
+│   │   ├── discussions/          # Forum (Reddit-style)
+│   │   ├── ide/                  # Code editor
+│   ├── static/                    # Static files (CSS, JS)
+│   ├── media/                     # Uploaded content
+│   ├── templates/                 # HTML templates
+│   ├── db.sqlite3                  # Database (for local development)
+│   ├── manage.py                    # Django CLI
+
+│── frontend/                        # Frontend UI
+│   ├── assets/
+│   │   ├── css/
+│   │   ├── js/
+│   │   ├── images/
+│   ├── pages/
+│   │   ├── index.html                # Homepage
+│   │   ├── dashboard.html            # User Dashboard
+│   │   ├── project.html              # Project showcase
+│   │   ├── discussion.html           # Forum
+│   │   ├── ide.html                  # Online Code Editor
+│   │   ├── profile.html              # User Profile
+│   ├── components/
+│   │   ├── navbar.html
+│   │   ├── footer.html
+│   │   ├── sidebar.html
+│   ├── README.md                     # Documentation
+│
+│── requirements.txt                   # Backend dependencies
+│── package.json                        # Frontend dependencie(if using a JS framework)
+│── .gitignore
+│── README.md                           # Project documentation
